@@ -38,7 +38,7 @@ def mobilenetv2_imagenet():
 
 # Function for CIFAR-10 model
 def cifar10_classification():
-    st.title("CIFAR-10 Image Classification")
+    st.title("CIFAR-10 Image Classification by Sudhanshu Shekhar")
     
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
     
@@ -84,4 +84,5 @@ def main():
         cifar10_classification()
 
 if __name__ == "__main__":
+
     main()
