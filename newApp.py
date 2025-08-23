@@ -5,7 +5,7 @@ from PIL import Image
 
 # Function for MobileNetV2 ImageNet model
 def mobilenetv2_imagenet():
-    st.title("Image Classification with MobileNetV2 (Sudhanshu Shekhar)")
+    st.title("Image Classification with MobileNetV2 by Sudhanshu Shekhar.")
     
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
     
@@ -38,7 +38,7 @@ def mobilenetv2_imagenet():
 
 # Function for CIFAR-10 model
 def cifar10_classification():
-    st.title("CIFAR-10 Image Classification by Sudhanshu Shekhar")
+    st.title("CIFAR-10 Image Classification by Sudhanshu Shekhar.")
     
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
     
@@ -86,4 +86,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
