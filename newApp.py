@@ -5,7 +5,7 @@ from PIL import Image
 
 # Function for MobileNetV2 ImageNet model
 def mobilenetv2_imagenet():
-    st.title("Image Classification with MobileNetV2")
+    st.title("Image Classification with MobileNetV2 (Sudhanshu Shekhar)")
     
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png"])
     
@@ -86,3 +86,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
