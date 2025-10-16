@@ -13,7 +13,8 @@ streamlit run newApp.py
 ### Ack
 
 
-##Deploy oon
+##Deploy on
+
 Streamlit: https://image-classification-sudhanshu-shekhar.streamlit.app
 
 Render: https://image-classification-i71s.onrender.com
