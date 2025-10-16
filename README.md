@@ -2,18 +2,18 @@
 
 I have done this project to classify images by using CNNmodel and Pre Trained Mobile Net model. I created the streamlit app for the same.
 
-#First install 
-pip install tensorflow
-pip install numpy
+###First install 
+pip install tensorflow,
+pip install numpy,
 pip install matplotlib
 
-## How to rum the code
+### How to rum the code
 streamlit run newApp.py
 
 ### Ack
 
 
-##Deploy on
+### Deploy on
 
 Streamlit: https://image-classification-sudhanshu-shekhar.streamlit.app
 
